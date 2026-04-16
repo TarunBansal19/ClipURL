@@ -100,12 +100,6 @@ CLIENT_URL=http://localhost:5173
 | GET | `/:code` | No | Redirect to original URL (Redis first, Mongo fallback) |
 | GET | `/api/health` | No | Health check |
 
-## Running Tests
-
-```bash
-cd server
-npm test
-```
 
 Tests cover:
 
